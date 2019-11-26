@@ -7,37 +7,37 @@
 
 
 external_domain() {
-	echo "tomaszklim.pl"
+	echo "ddwn.se"
 }
 
 internal_domain() {
-	echo "internal"
+	echo "ddw.se"
 }
 
 local_backup_directory() {
-	echo "/backup"
+	echo "/mnt/backups"
 }
 
 management_public_ip_range() {
-	echo "88.99.100.17"
+	echo "90.225.139.54"
 }
 
 primary_admin_account() {
-	echo "tomek"
+	echo "dest"
 }
 
 heartbeat_url() {
-	echo "https://serverfarmer.home.pl/heartbeat/"
+	echo "https://srv01.ddwn.se/heartbeat/"
 }
 
 connectivity_check_url() {
-	echo "https://serverfarmer.home.pl/connection.php"
+	echo "https://srv01.ddwn.se/connection.php"
 }
 
 extension_repositories() {
-	echo "https://github.com/serverfarmer"
+	echo "https://github.com/dest12345"
 }
 
 keys_repository() {
-	echo "https://github.com/serverfarmer/sf-keys"
+	echo "https://github.com/dest12345/sf-keys"
 }
