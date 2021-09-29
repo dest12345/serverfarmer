@@ -7,11 +7,11 @@
 
 
 external_domain() {
-	echo "tomaszklim.pl"
+	echo "ddwn.se"
 }
 
 internal_domain() {
-	echo "internal"
+	echo "srv01.ddwn.se"
 }
 
 local_backup_directory() {
